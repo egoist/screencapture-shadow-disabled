@@ -24,6 +24,11 @@ check((err, disabled) => {
 })
 ```
 
+## Related
+
+- [toggle-screencapture-shadow](https://github.com/egoist/toggle-screencapture-shadow)
+- [toggle-screencapture-shadow-cli](https://github.com/egoist/toggle-screencapture-shadow-cli)
+
 ## License
 
 MIT © [EGOIST](https://github.com/egoist)
