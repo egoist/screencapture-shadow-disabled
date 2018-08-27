@@ -1,6 +1,6 @@
 {
   "name": "screencapture-shadow-disabled",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check if screencapture shadow is disabled. (macOS)",
   "license": "MIT",
   "repository": "egoist/screencapture-shadow-disabled",
@@ -29,6 +29,8 @@
     "xo": "^0.22.0"
   },
   "xo": {
-    "extends": ["rem"]
+    "extends": [
+      "rem"
+    ]
   }
 }
