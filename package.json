@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo index.js"
+    "test": "xo"
   },
   "files": [
     "index.js"
@@ -25,10 +25,10 @@
     "shadow"
   ],
   "devDependencies": {
-    "xo": "latest"
+    "eslint-config-rem": "^4.0.0",
+    "xo": "^0.22.0"
   },
   "xo": {
-    "semicolon": false,
-    "space": 2
+    "extends": ["rem"]
   }
 }

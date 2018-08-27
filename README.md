@@ -15,12 +15,9 @@ $ npm install --save screencapture-shadow-disabled
 ```js
 const check = require('screencapture-shadow-disabled')
 
-check((err, disabled) => {
-  if (err) {
-    console.log(err)
-    return
-  }
-  console.log(disabled) //=> false
+check()
+.then(disabled => {
+	console.log(disabled)
 })
 ```
 

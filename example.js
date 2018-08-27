@@ -1,10 +1,10 @@
 'use strict'
-const disabled = require('./')
+const disabled = require('.')
 
-disabled((err, isDisabled) => {
-  if (err) {
+disabled()
+  .then(isDisabled => {
+    console.log(isDisabled)
+  })
+  .catch(err => {
     console.log(err)
-    return
-  }
-  console.log(isDisabled)
-})
+  })
